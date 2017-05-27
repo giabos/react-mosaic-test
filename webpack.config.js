@@ -31,6 +31,10 @@ var loaders = [
   {
     "test": /\.less?$/,
     "loader": "style-loader!css-loader!less-loader"
+  },
+  {
+    test: /\.(eot|svg|ttf|woff|woff2)$/,
+    loader: 'file-loader?name=public/fonts/[name].[ext]'
   }
 ];
 

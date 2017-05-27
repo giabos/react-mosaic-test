@@ -1,7 +1,7 @@
 import { render } from 'react-dom';
 import React, { createElement as __, DOM as _ } from 'react';
 import { Mosaic, MosaicWindow } from 'react-mosaic-component';
-//import '@blueprintjs/core/dist/blueprint.css';
+import '@blueprintjs/core/dist/blueprint.css';
 import "react-mosaic-component/react-mosaic-component.css";
 import './index.less';
 
