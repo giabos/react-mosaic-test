@@ -1,0 +1,27 @@
+{
+  "name": "webpackbin-project",
+  "version": "1.0.0",
+  "description": "Project boilerplate",
+  "scripts": {
+    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base build/ --port 3000"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "1.18.0",
+    "react": "15.5.4",
+    "react-dom": "15.5.4",
+    "react-mosaic-component": "0.4.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "2.22.0",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.2",
+    "style-loader": "^0.18.1",
+    "ts-loader": "2.0.0",
+    "typescript": "2.0.10",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "2.3.0"
+  },
+  "author": "WebpackBin",
+  "license": "ISC"
+}
