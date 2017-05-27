@@ -8,7 +8,7 @@ var loaders = [
     "loader": "style-loader!css-loader"
   },
   {
-    "test": /\.ts?$|\\.tsx?$/,
+    "test": /\.tsx?$/,
     "loader": "ts-loader",
     "options": {
       "transpileOnly": true,
